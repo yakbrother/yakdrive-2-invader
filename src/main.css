@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+p,div,article,section,li,h1,h2,h3,h4{
+    font-family:"Karla", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    color:#C026D3;
+    text-decoration:none;
+}
+a:hover {
+    color:#C026D3;
+}
+.bg-hero {
+    background-image: url('images/background.jpg');
+}
+.double-shadow {
+    box-shadow: 0 4px 6px hsla(0,0%,.7);
+    box-shadow: 0 5px 15px hsla(0,0%,.1);
+}
+.front-layout {
+    max-width: 800px;
+}
